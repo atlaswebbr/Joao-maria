@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João e Maria — Espaço de Festas | Alagoinhas - BA</title>
+  <meta name="description" content="João e Maria — Espaço de Festas em Alagoinhas - BA. O cenário perfeito para aniversários, casamentos, baby shower, formaturas e eventos corporativos." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Cormorant Garamond"', 'serif'],
+          },
+          colors: {
+            festa: {
+              noir: '#121212',
+              charcoal: '#1C1B1A',
+              gold: '#D4AF37',
+              goldLight: '#F3E5AB',
+              cream: '#FAF8F5',
+              sand: '#EFECE6'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-festa-cream text-stone-800 antialiased selection:bg-festa-gold selection:text-festa-noir">
+
+  <!-- Barra Superior -->
+  <div class="bg-festa-noir text-festa-goldLight text-xs sm:text-sm py-2 px-4 border-b border-festa-gold/20">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <span>✨ Transforme momentos especiais em memórias inesquecíveis • Alagoinhas - BA</span>
+      <a href="https://wa.me/5575998001722" target="_blank" rel="noopener" class="font-bold text-festa-gold hover:underline">
+        Reservas &amp; Visitas: (75) 99800-1722
+      </a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-festa-noir/95 backdrop-blur border-b border-festa-gold/25 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+      <a href="#inicio" class="flex items-center gap-3.5">
+        <img src="logo-joao-maria.png" alt="Logo João e Maria Espaço de Festas" class="w-12 h-12 rounded-full object-cover border-2 border-festa-gold bg-black shadow-md" />
+        <div>
+          <span class="block font-serif text-2xl font-bold tracking-wide text-white leading-none">João &amp; Maria</span>
+          <span class="block text-[11px] uppercase tracking-[0.2em] text-festa-gold mt-1">Espaço de Festas</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-stone-300">
+        <a href="#eventos" class="hover:text-festa-gold transition">Tipos de Eventos</a>
+        <a href="#espaco" class="hover:text-festa-gold transition">O Espaço</a>
+        <a href="#disponibilidade" class="hover:text-festa-gold transition">Consultar Data</a>
+      </nav>
+
+      <a href="#disponibilidade" class="inline-flex items-center gap-2 bg-festa-gold hover:bg-amber-400 text-festa-noir text-sm font-bold px-4 py-2.5 rounded-full shadow transition">
+        <span>Consultar Data</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="relative bg-festa-noir text-white overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,175,55,0.18),transparent_55%)]"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 lg:py-24 grid lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 border border-festa-gold/40 bg-festa-gold/10 text-festa-goldLight px-4 py-1.5 rounded-full text-xs uppercase tracking-widest font-semibold">
+          <span>🥂 Salão de Eventos Exclusivo • Alagoinhas - BA</span>
+        </div>
+
+        <h1 class="font-serif text-4xl sm:text-6xl font-bold leading-[1.08] tracking-tight">
+          O cenário perfeito para celebrar as <span class="italic text-festa-gold">grandes histórias</span> da sua vida.
+        </h1>
+
+        <p class="text-stone-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+          Estrutura ampla, versátil e acolhedora em Alagoinhas para aniversários infantis e adultos, casamentos, baby showers, formaturas e confraternizações com todo o conforto que seus convidados merecem.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 pt-2">
+          <a href="#disponibilidade" class="inline-flex items-center justify-center gap-2 bg-festa-gold hover:bg-amber-400 text-festa-noir font-bold px-7 py-4 rounded-full shadow-lg transition text-base">
+            <span>Verificar Disponibilidade de Data</span>
+            <span>→</span>
+          </a>
+          <a href="https://wa.me/5575998001722?text=Ol%C3%A1%2C%20Espa%C3%A7o%20Jo%C3%A3o%20e%20Maria!%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20o%20sal%C3%A3o." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 border border-festa-gold/50 hover:bg-white/10 text-white font-semibold px-7 py-4 rounded-full transition text-base">
+            <span>Agendar Visita Presencial</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card Destaque -->
+      <div class="lg:col-span-5">
+        <div class="bg-festa-charcoal border border-festa-gold/35 rounded-3xl p-7 sm:p-8 shadow-2xl space-y-6">
+          <div class="flex items-center justify-between border-b border-white/10 pb-4">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-festa-gold font-bold">Celebrações Sob Medida</span>
+              <h2 class="font-serif text-2xl font-bold text-white mt-0.5">Eventos que Realizamos</h2>
+            </div>
+            <span class="text-2xl">✨</span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3 text-sm">
+            <div class="p-3.5 rounded-2xl bg-black/40 border border-festa-gold/20">
+              <span class="text-xl block mb-1">🎂</span>
+              <p class="font-bold text-white">Aniversários</p>
+              <p class="text-xs text-stone-400 mt-0.5">Infantil, 15 anos e adulto</p>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-black/40 border border-festa-gold/20">
+              <span class="text-xl block mb-1">💍</span>
+              <p class="font-bold text-white">Casamentos</p>
+              <p class="text-xs text-stone-400 mt-0.5">Recepção e cerimônia</p>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-black/40 border border-festa-gold/20">
+              <span class="text-xl block mb-1">🍼</span>
+              <p class="font-bold text-white">Baby Shower</p>
+              <p class="text-xs text-stone-400 mt-0.5">Chá de bebê e revelação</p>
+            </div>
+            <div class="p-3.5 rounded-2xl bg-black/40 border border-festa-gold/20">
+              <span class="text-xl block mb-1">🎓</span>
+              <p class="font-bold text-white">Formaturas</p>
+              <p class="text-xs text-stone-400 mt-0.5">Eventos e confraternizações</p>
+            </div>
+          </div>
+
+          <a href="#disponibilidade" class="block w-full text-center bg-festa-gold hover:bg-amber-400 text-festa-noir font-bold py-3.5 rounded-full text-sm transition">
+            Solicitar Orçamento para Meu Evento
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tipos de Eventos -->
+  <section id="eventos" class="py-16 sm:py-20 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-800 bg-amber-100 px-3.5 py-1 rounded-full">Versatilidade &amp; Charme</span>
+      <h2 class="font-serif text-3xl sm:text-5xl font-bold text-festa-noir mt-3">Cada detalhe pensado para encantar</h2>
+      <p class="text-stone-600 text-sm sm:text-base mt-2">Selecione o formato da sua comemoração para preencher automaticamente a consulta de data abaixo.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="bg-white rounded-3xl p-6 border border-stone-200/80 shadow-sm hover:border-festa-gold transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl mb-4">🎈</div>
+          <h3 class="font-serif text-2xl font-bold text-festa-noir">Festas Infantis &amp; Temáticas</h3>
+          <p class="text-sm text-stone-600 mt-2 leading-relaxed">Espaço livre e seguro para montagem de painéis personalizados, mesa de bolo, brinquedos e circulação confortável das famílias.</p>
+        </div>
+        <button onclick="selecionarEvento('Aniversário Infantil / Temático')" class="mt-6 text-left text-xs font-bold uppercase tracking-wider text-amber-800 hover:text-festa-noir">
+          Consultar data →
+        </button>
+      </div>
+
+      <div class="bg-white rounded-3xl p-6 border border-stone-200/80 shadow-sm hover:border-festa-gold transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl mb-4">🥂</div>
+          <h3 class="font-serif text-2xl font-bold text-festa-noir">Casamentos &amp; Bodas</h3>
+          <p class="text-sm text-stone-600 mt-2 leading-relaxed">Ambiente sofisticado com pé-direito amplo, iluminação acolhedora e layout flexível para pista de dança, buffet e mesas.</p>
+        </div>
+        <button onclick="selecionarEvento('Casamento / Bodas')" class="mt-6 text-left text-xs font-bold uppercase tracking-wider text-amber-800 hover:text-festa-noir">
+          Consultar data →
+        </button>
+      </div>
+
+      <div class="bg-white rounded-3xl p-6 border border-stone-200/80 shadow-sm hover:border-festa-gold transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl mb-4">🧸</div>
+          <h3 class="font-serif text-2xl font-bold text-festa-noir">Baby Shower &amp; Revelação</h3>
+          <p class="text-sm text-stone-600 mt-2 leading-relaxed">Cenário encantador para receber familiares e amigos em chás de fraldas, chá revelação e batizados com toda comodidade.</p>
+        </div>
+        <button onclick="selecionarEvento('Baby Shower / Chá Revelação')" class="mt-6 text-left text-xs font-bold uppercase tracking-wider text-amber-800 hover:text-festa-noir">
+          Consultar data →
+        </button>
+      </div>
+
+      <div class="bg-white rounded-3xl p-6 border border-stone-200/80 shadow-sm hover:border-festa-gold transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center text-2xl mb-4">✨</div>
+          <h3 class="font-serif text-2xl font-bold text-festa-noir">15 Anos &amp; Corporativo</h3>
+          <p class="text-sm text-stone-600 mt-2 leading-relaxed">Estrutura preparada para debutantes, formaturas, palestras e eventos empresariais em Alagoinhas.</p>
+        </div>
+        <button onclick="selecionarEvento('15 Anos / Formatura / Corporativo')" class="mt-6 text-left text-xs font-bold uppercase tracking-wider text-amber-800 hover:text-festa-noir">
+          Consultar data →
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciais do Espaço -->
+  <section id="espaco" class="py-16 bg-festa-sand border-y border-stone-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-5 space-y-4">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-800">Estrutura Completa</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-festa-noir">Por que escolher o João e Maria?</h2>
+        <p class="text-stone-600 text-sm sm:text-base leading-relaxed">
+          Um salão planejado para facilitar o trabalho da sua equipe de decoração e buffet, garantindo praticidade para os anfitriões do início ao fim da festa.
+        </p>
+      </div>
+
+      <div class="lg:col-span-7 grid sm:grid-cols-2 gap-4">
+        <div class="bg-white p-5 rounded-2xl border border-stone-200/70">
+          <p class="font-bold text-festa-noir">🏛️ Salão Amplo &amp; Arejado</p>
+          <p class="text-xs text-stone-600 mt-1.5 leading-relaxed">Pé-direito alto e planta livre que permite diversas configurações de mesas, palco e decoração.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-stone-200/70">
+          <p class="font-bold text-festa-noir">🍽️ Apoio para Buffet</p>
+          <p class="text-xs text-stone-600 mt-1.5 leading-relaxed">Área de apoio funcional para organização de alimentos, bebidas e equipe de atendimento.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-stone-200/70">
+          <p class="font-bold text-festa-noir">📍 Localização em Alagoinhas</p>
+          <p class="text-xs text-stone-600 mt-1.5 leading-relaxed">Fácil acesso para seus convidados e fornecedores na cidade.</p>
+        </div>
+        <div class="bg-white p-5 rounded-2xl border border-stone-200/70">
+          <p class="font-bold text-festa-noir">🤝 Atendimento Próximo</p>
+          <p class="text-xs text-stone-600 mt-1.5 leading-relaxed">Suporte direto pelo WhatsApp para agendar visitas técnicas e reservar sua data com segurança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de Disponibilidade de Data -->
+  <section id="disponibilidade" class="py-16 sm:py-20 max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="bg-festa-noir text-white rounded-3xl p-7 sm:p-10 shadow-2xl border border-festa-gold/30">
+      <div class="text-center max-w-xl mx-auto mb-8">
+        <span class="text-xs font-bold uppercase tracking-widest text-festa-gold">Agenda 2026 / 2027</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2">Consulte a Disponibilidade da Sua Data</h2>
+        <p class="text-stone-300 text-sm mt-2">Preencha os detalhes abaixo e envie sua solicitação direto para o WhatsApp oficial do espaço.</p>
+      </div>
+
+      <form id="formFesta" class="grid sm:grid-cols-2 gap-4 text-stone-800">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-festa-goldLight mb-1.5">Seu Nome</label>
+          <input type="text" id="nomeAnfitriao" required placeholder="Ex.: Juliana Santos" class="w-full px-4 py-3 rounded-xl bg-white border-0 text-sm font-medium focus:ring-2 focus:ring-festa-gold outline-none" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-festa-goldLight mb-1.5">Tipo de Evento</label>
+          <select id="tipoEvento" class="w-full px-4 py-3 rounded-xl bg-white border-0 text-sm font-medium focus:ring-2 focus:ring-festa-gold outline-none">
+            <option value="Aniversário Infantil / Temático">Aniversário Infantil / Temático</option>
+            <option value="Casamento / Bodas">Casamento / Bodas</option>
+            <option value="Baby Shower / Chá Revelação">Baby Shower / Chá Revelação</option>
+            <option value="15 Anos / Formatura / Corporativo">15 Anos / Formatura / Corporativo</option>
+            <option value="Outro Evento">Outro Evento</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-festa-goldLight mb-1.5">Data Pretendida</label>
+          <input type="date" id="dataEvento" required class="w-full px-4 py-3 rounded-xl bg-white border-0 text-sm font-medium focus:ring-2 focus:ring-festa-gold outline-none" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-festa-goldLight mb-1.5">Estimativa de Convidados</label>
+          <select id="qtdConvidados" class="w-full px-4 py-3 rounded-xl bg-white border-0 text-sm font-medium focus:ring-2 focus:ring-festa-gold outline-none">
+            <option value="Até 80 convidados">Até 80 convidados</option>
+            <option value="80 a 150 convidados">80 a 150 convidados</option>
+            <option value="150 a 250 convidados">150 a 250 convidados</option>
+            <option value="Acima de 250 convidados">Acima de 250 convidados</option>
+          </select>
+        </div>
+
+        <div class="sm:col-span-2">
+          <label class="block text-xs font-bold uppercase tracking-wider text-festa-goldLight mb-1.5">Observações ou Turno (Opcional)</label>
+          <input type="text" id="obsEvento" placeholder="Ex.: Festa à tarde, gostaria de agendar uma visita esta semana" class="w-full px-4 py-3 rounded-xl bg-white border-0 text-sm font-medium focus:ring-2 focus:ring-festa-gold outline-none" />
+        </div>
+
+        <div class="sm:col-span-2 pt-3">
+          <button type="submit" class="w-full bg-festa-gold hover:bg-amber-400 text-festa-noir font-extrabold py-4 px-6 rounded-full shadow-lg transition flex items-center justify-center gap-2 text-base">
+            <span>💬 Consultar Data no WhatsApp</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-festa-noir text-stone-400 py-10 px-4 text-sm border-t border-festa-gold/20">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="font-serif font-bold text-white text-xl">João e Maria — Espaço de Festas</p>
+        <p class="text-xs text-stone-400 mt-0.5">Alagoinhas - BA • @joaomariafestasalagoinhas</p>
+      </div>
+      <div class="text-xs text-stone-400 text-center sm:text-right">
+        <p>WhatsApp: <a href="https://wa.me/5575998001722" target="_blank" rel="noopener" class="text-festa-gold font-bold hover:underline">(75) 99800-1722</a></p>
+        <p class="mt-1">Desenvolvido por <a href="https://atlaswebbr.github.io/Atlas-web-Demostra-es/" target="_blank" rel="noopener" class="text-white font-bold hover:underline">Atlas Web</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante WhatsApp -->
+  <a href="https://wa.me/5575998001722?text=Ol%C3%A1%2C%20Jo%C3%A3o%20e%20Maria%20Espa%C3%A7o%20de%20Festas!%20Gostaria%20de%20saber%20valores%20e%20datas%20dispon%C3%ADveis." target="_blank" rel="noopener" class="fixed bottom-5 right-5 z-50 bg-green-600 hover:bg-green-700 text-white font-bold px-4 py-3.5 rounded-full shadow-xl flex items-center gap-2 transition transform hover:scale-105">
+    <span class="text-lg">💬</span>
+    <span class="hidden sm:inline text-sm">WhatsApp Eventos</span>
+  </a>
+
+  <script>
+    function selecionarEvento(evento) {
+      document.getElementById('tipoEvento').value = evento;
+      document.getElementById('disponibilidade').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    document.getElementById('formFesta').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nome = document.getElementById('nomeAnfitriao').value.trim();
+      const tipo = document.getElementById('tipoEvento').value;
+      const dataRaw = document.getElementById('dataEvento').value;
+      const convidados = document.getElementById('qtdConvidados').value;
+      const obs = document.getElementById('obsEvento').value.trim();
+
+      let dataFormatada = dataRaw;
+      if (dataRaw && dataRaw.includes('-')) {
+        const [ano, mes, dia] = dataRaw.split('-');
+        dataFormatada = `${dia}/${mes}/${ano}`;
+      }
+
+      let msg = `Olá, *João e Maria — Espaço de Festas*! Gostaria de consultar disponibilidade:\n\n`;
+      msg += `👤 *Nome:* ${nome}\n`;
+      msg += `🎉 *Evento:* ${tipo}\n`;
+      msg += `📅 *Data Pretendida:* ${dataFormatada}\n`;
+      msg += `👥 *Convidados:* ${convidados}\n`;
+      if (obs) msg += `📝 *Obs.:* ${obs}\n`;
+
+      window.open(`https://wa.me/5575998001722?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
+    });
+  </script>
+</body>
+</html>
